@@ -1,0 +1,164 @@
+@media only screen and (max-width: 600px) {
+    .background-img {
+        background: url(../imgs/portfolio_media.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+    #hero {
+        width: 100vw;
+        height: 120vh;
+    }
+    .hamburger-container {
+        display: block;
+        margin: 0 0 0 40px;
+        z-index: 999;
+    }
+    .header-nav-container {
+        display: none;
+        flex-direction: column;
+        z-index: 992;
+    }
+    .header-nav-container.active {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background: #161616;
+        justify-content: space-evenly;
+    }
+    .header-nav-container a {
+        color: #8100ff;
+    }
+    .header-right {
+        flex-direction: row-reverse;
+    }
+    .hero-top-content {
+        width: 100%;
+    }
+    .hero-top-content h2 {
+        color: #ffffff;
+        font-size: 25px;
+    }
+    .hero-top-content h4 {
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .hero-top {
+        height: calc(100% - 60px);
+    }
+    .hero-back-img-system {
+        display: none;
+    }
+    .skills-contents {
+        flex-direction: column;
+    }
+    .skill-major-name {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-content {
+        width: 100%;
+    }
+    .skills-card {
+        width: 100%;
+    }
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .full-project-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .full-project-right {
+        width: 100%;
+    }
+    .full-project-left {
+        height: 100%;
+        width: 100%;
+    }
+    .full-project-details {
+        height: max-content;
+    }
+    .full-project-container {
+        height: max-content;
+        overflow-y: scroll;
+    }
+    .full-project-right {
+        height: 40vh;
+        margin: 0;
+    }
+    .full-project-detail {
+        height: max-content;
+        margin: 0;
+    }
+    .full-project-img-container {
+        height: 250px;
+        width: 100vw;
+    }
+    .full-project-details.active {
+        min-height: 100vh;
+    }
+    .contact-me-content {
+        flex-direction: column-reverse;
+    }
+    .contact-me-content-left,
+    .contact-me-content-right {
+        width: 100%;
+    }
+    .contact-me-content-right {
+        height: 25%;
+    }
+    .contact-me-content-left {
+        height: 75%;
+    }
+    .about-me-cards {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .about-me-card {
+        width: 300px;
+        margin: 0 0 20px 0;
+    }
+    .about-card-header h4 {
+        font-size: 20px;
+    }
+    .footer-img-container {
+        height: 100px;
+        width: 250px;
+    }
+    .skill-major-name {
+        height: 30%;
+    }
+    .skills-content {
+        height: 70%;
+    }
+    .submit-btn-container input {
+        padding: 15px 30px;
+    }
+    .hero-back-img-system {
+        display: none;
+    }
+    .hero-back-img-phone {
+        display: block;
+        height: 100vh;
+    }
+    .form-details label {
+        color: #ffffff;
+    }
+    .form-msg-details label {
+        color: #ffffff;
+    }
+    .projects-header h2 {
+        color: #ffffff;
+    }
+    .client-review {
+        padding: 0 5px;
+    }
+    .client-img-container {
+        height: 50px;
+        width: 50px;
+    }
+}
